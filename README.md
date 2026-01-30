@@ -1,17 +1,12 @@
-# shopify-accounting-automation
-A Google Apps Script tool that converts Shopify order CSV data into QuickBooks-ready journal entries.
-# Shopify to QuickBooks Data Converter
-**Streamlining E-commerce Accounting with Google Apps Script**
+# Shopify to QuickBooks Automation Tool (GAS)
 
-## 💡 Overview
-This project provides a solution for Shopify store owners to automate their bookkeeping. It parses Shopify Order CSV files and transforms them into a format compatible with QuickBooks Journal Entries, saving hours of manual data entry.
+## 📌 The Problem
+Manual bookkeeping for Shopify stores is time-consuming and prone to errors. Integrating data into QuickBooks often requires expensive monthly subscriptions or tedious CSV formatting.
 
-## 🚀 Key Features
-- **Automated Data Mapping**: Converts Shopify headers to Accounting standards (Debit/Credit).
-- **Tax & Shipping Handling**: Separates shipping income and sales tax for accurate reporting.
-- **Zero Cost**: Runs entirely on Google Sheets/GAS—no monthly subscription fees.
+## 💡 The Solution
+This tool uses Google Apps Script (JavaScript) to bridge the gap. It automatically maps Shopify Order exports to QuickBooks-compatible Journal Entries.
 
-## 🛠 Tech Stack
-- JavaScript / Google Apps Script
-- Shopify CSV API structure
-- SQL logic for data filtering
+## ✨ Why this matters
+- **Save 5+ hours/week** of manual data entry.
+- **Accuracy**: Eliminates human error in Tax and Shipping calculations.
+- **Cost-Effective**: A lightweight, serverless solution for small to mid-sized businesses.
